@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* IMPORT FONTS */
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url('../public/assets/fonts/Raleway-Medium.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Black';
+  src: url('../public/assets/fonts/Raleway-Black.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway SemiBold';
+  src: url('../public/assets/fonts/Raleway-SemiBold.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url('../public/assets/fonts/Raleway-Regular.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway ExtraLight';
+  src: url('../public/assets/fonts/Raleway-ExtraLight.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url('../public/assets/fonts/Raleway-Bold.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway ExtraBold';
+  src: url('../public/assets/fonts/Raleway-ExtraBold.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url('../public/assets/fonts/Raleway-Light.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway Thin';
+  src: url('../public/assets/fonts/Raleway-Thin.woff2') format('woff2'),
+      url('../public/assets/fonts/Raleway-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  @apply bg-gray m-0 text-blue text-sm p-3;
+  font-family: "Raleway SemiBold",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1{
+  font-family: "Raleway Bold",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+
+
+  
