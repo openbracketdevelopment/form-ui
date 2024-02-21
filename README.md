@@ -1,17 +1,17 @@
 ## Instructions
 
-Run the command below to initiate an development env
+Run the command below to initiate a development environment.
 
 ### `npm start`
 
-Run this to watch and compiles css files
+To watch for css files run
 
 ### `npx tailwindcss -i ./src/Main.scss -o ./src/App.scss --watch`
 
-Run this for testing
+For testing run
 
 ### `npm test`
 
-For production build run this
+To create production build run
 
 ### `npm run build`
